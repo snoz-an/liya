@@ -8,6 +8,9 @@
    <!-- Main CSS -->
    <link rel="stylesheet" href="assets/css/main.css">
    <link rel="stylesheet" href="assets/css/helper.css">
+   <link rel="stylesheet" href="assets/fonts/Futura New/stylesheet.css">
+
+
 
     <!-- Slick CSS -->
     <link rel="stylesheet" type="text/css" href="./assets/slick-1.8.1/slick/slick.css"/>
@@ -17,31 +20,32 @@
   <title>LIYA</title>
 </head>
 <body>
-<header class="back_brown header_border">
+<header class="back_brown back_mobile">
+    <div class="header_border">
    <div class="container header d-flex">
         <img class="header_logo" src="./assets/images/logo.svg" alt="">
 
         <div class="mt-3 d-flex justify-content-between align-items-center w-100">
             <ul class="header_list">
-                <li class="header_list_item">
+                <li class=" d-xl-block d-none header_list_item">
                     <a class="color_black fs-18" href="#">О НАС</a>
                 </li>
-                <li class="header_list_item">
+                <li class=" d-xl-block d-none header_list_item">
                     <a class="color_black fs-18" href="#">ПРОЕКТЫ</a>
                 </li>
-                <li class="header_list_item">
+                <li class=" d-xl-block d-none header_list_item">
                     <a class="color_black fs-18" href="#">ОТЗЫВЫ</a>
                 </li>
-                <li class="header_list_item">
+                <li class=" d-xl-block d-none header_list_item">
                     <a class="color_black fs-18" href="#">КОНТАКТЫ</a>
                 </li>
             </ul>
 
             <ul class="header_list_2 align-items-center">
-                <li class="header_list_2_item">
+                <li class=" d-xl-block d-none header_list_2_item">
                     <a class="color_black fs-18 fw-700" href="#">+7 999 123 54 76</a>
                 </li>
-                <li class="header_list_2_item">
+                <li class=" d-xl-block d-none header_list_2_item">
                     <a class="color_black fs-18" href="#">
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M27.2551 12.6208C26.9551 12.3664 26.4839 12.33 25.9967 12.5256H25.9959C25.4835 12.7312 11.4915 18.7328 10.9219 18.978C10.8183 19.014 9.91352 19.3516 10.0067 20.1036C10.0899 20.7816 10.8171 21.0624 10.9059 21.0948L14.4631 22.3128C14.6991 23.0984 15.5691 25.9968 15.7615 26.616C15.8815 27.002 16.0771 27.5092 16.4199 27.6136C16.7207 27.7296 17.0199 27.6236 17.2135 27.4716L19.3883 25.4544L22.8991 28.1924L22.9827 28.2424C23.2211 28.348 23.4495 28.4008 23.6675 28.4008C23.8359 28.4008 23.9975 28.3692 24.1519 28.306C24.6779 28.09 24.8883 27.5888 24.9103 27.532L27.5327 13.9012C27.6927 13.1732 27.4703 12.8028 27.2551 12.6208ZM17.6003 22.8L16.4003 26L15.2003 22L24.4003 15.2L17.6003 22.8Z" fill="#242424"/>
@@ -49,7 +53,7 @@
                         </svg>
                     </a>
                 </li>
-                <li class="header_list_2_item">
+                <li class=" d-xl-block d-none header_list_2_item">
                     <a class="color_black fs-18" href="#">
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M20 10.7998C14.9272 10.7998 10.8 14.927 10.8 19.9998C10.8 21.5838 11.2092 23.1414 11.9852 24.5158L10.8148 28.6918C10.7764 28.829 10.8136 28.9762 10.9128 29.0782C10.9892 29.157 11.0932 29.1998 11.2 29.1998C11.232 29.1998 11.2644 29.1958 11.296 29.1882L15.6544 28.1086C16.9852 28.823 18.484 29.1998 20 29.1998C25.0728 29.1998 29.2 25.0726 29.2 19.9998C29.2 14.927 25.0728 10.7998 20 10.7998ZM24.628 23.2462C24.4312 23.791 23.4872 24.2882 23.0336 24.355C22.6264 24.4146 22.1112 24.4402 21.5456 24.2626C21.2028 24.1546 20.7628 24.0114 20.1992 23.771C17.83 22.7606 16.2828 20.405 16.1644 20.2494C16.0464 20.0938 15.2 18.985 15.2 17.8374C15.2 16.6898 15.81 16.1254 16.0268 15.8918C16.2436 15.6582 16.4992 15.5998 16.6568 15.5998C16.8144 15.5998 16.9716 15.6018 17.1096 15.6082C17.2548 15.6154 17.4496 15.5534 17.6412 16.0086C17.838 16.4758 18.3104 17.6234 18.3688 17.7406C18.428 17.8574 18.4672 17.9938 18.3888 18.1494C18.3104 18.305 18.2712 18.4022 18.1528 18.5386C18.0344 18.675 17.9048 18.8426 17.7984 18.9474C17.68 19.0638 17.5572 19.1898 17.6948 19.4234C17.8324 19.657 18.3064 20.4206 19.0088 21.039C19.9108 21.8334 20.672 22.0798 20.908 22.1966C21.144 22.3134 21.282 22.2938 21.4196 22.1382C21.5572 21.9822 22.01 21.457 22.1672 21.2238C22.3244 20.9906 22.482 21.029 22.6988 21.107C22.9156 21.1846 24.0768 21.7486 24.3128 21.8654C24.5488 21.9822 24.7064 22.0406 24.7656 22.1378C24.8248 22.2346 24.8248 22.7018 24.628 23.2462Z" fill="#242424"/>
@@ -57,7 +61,7 @@
                         </svg>
                     </a>
                 </li>
-                <li class="header_list_2_item">
+                <li class=" d-xl-block d-none header_list_2_item">
                     <a class="color_black fs-18" href="#">
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M20 11C17.555 11 17.2498 11.0112 16.2898 11.054C15.3313 11.099 14.6787 11.2498 14.105 11.4725C13.5132 11.702 13.0108 12.0102 12.5105 12.5105C12.0102 13.0108 11.7013 13.5125 11.4725 14.105C11.2498 14.6787 11.0983 15.3313 11.054 16.2898C11.009 17.2498 11 17.555 11 20C11 22.445 11.0112 22.7503 11.054 23.7103C11.099 24.668 11.2498 25.3213 11.4725 25.895C11.702 26.486 12.0102 26.9893 12.5105 27.4895C13.0108 27.989 13.5125 28.2987 14.105 28.5275C14.6795 28.7495 15.332 28.9018 16.2898 28.946C17.2498 28.991 17.555 29 20 29C22.445 29 22.7503 28.9888 23.7103 28.946C24.668 28.901 25.3213 28.7495 25.895 28.5275C26.486 28.298 26.9893 27.989 27.4895 27.4895C27.989 26.9893 28.2987 26.4883 28.5275 25.895C28.7495 25.3213 28.9018 24.668 28.946 23.7103C28.991 22.7503 29 22.445 29 20C29 17.555 28.9888 17.2498 28.946 16.2898C28.901 15.332 28.7495 14.678 28.5275 14.105C28.298 13.5132 27.989 13.0108 27.4895 12.5105C26.9893 12.0102 26.4883 11.7013 25.895 11.4725C25.3213 11.2498 24.668 11.0983 23.7103 11.054C22.7503 11.009 22.445 11 20 11ZM20 12.62C22.4023 12.62 22.6888 12.632 23.6375 12.6732C24.515 12.7145 24.9913 12.86 25.3077 12.9845C25.7292 13.1472 26.0278 13.3423 26.3442 13.6565C26.6585 13.9715 26.8535 14.2707 27.0163 14.6922C27.1392 15.0087 27.2862 15.485 27.326 16.3625C27.3687 17.312 27.3785 17.597 27.3785 20C27.3785 22.403 27.3673 22.6888 27.323 23.6375C27.2773 24.515 27.131 24.9913 27.0072 25.3077C26.8393 25.7292 26.648 26.0278 26.333 26.3442C26.0188 26.6585 25.715 26.8535 25.298 27.0163C24.983 27.1392 24.4993 27.2862 23.6217 27.326C22.6663 27.3687 22.385 27.3785 19.9775 27.3785C17.5693 27.3785 17.288 27.3673 16.3333 27.323C15.455 27.2773 14.9713 27.131 14.6562 27.0072C14.2295 26.8393 13.9362 26.648 13.622 26.333C13.3063 26.0188 13.1045 25.715 12.947 25.298C12.8232 24.983 12.6778 24.4993 12.632 23.6217C12.5983 22.6768 12.5863 22.385 12.5863 19.9887C12.5863 17.5917 12.5983 17.2993 12.632 16.343C12.6778 15.4655 12.8232 14.9825 12.947 14.6675C13.1045 14.24 13.3063 13.9475 13.622 13.6318C13.9362 13.3175 14.2295 13.115 14.6562 12.9583C14.9713 12.8338 15.4445 12.6875 16.322 12.6425C17.2783 12.6087 17.5595 12.5975 19.9662 12.5975L20 12.62ZM20 15.3785C17.4462 15.3785 15.3785 17.4485 15.3785 20C15.3785 22.5538 17.4485 24.6215 20 24.6215C22.5538 24.6215 24.6215 22.5515 24.6215 20C24.6215 17.4462 22.5515 15.3785 20 15.3785ZM20 23C18.3425 23 17 21.6575 17 20C17 18.3425 18.3425 17 20 17C21.6575 17 23 18.3425 23 20C23 21.6575 21.6575 23 20 23ZM25.8845 15.1962C25.8845 15.7925 25.4 16.2762 24.8045 16.2762C24.2083 16.2762 23.7245 15.7917 23.7245 15.1962C23.7245 14.6007 24.209 14.117 24.8045 14.117C25.3993 14.1163 25.8845 14.6007 25.8845 15.1962Z" fill="#242424"/>
@@ -66,41 +70,55 @@
                     </a>
                 </li>
             </ul>
+
+            <svg data-toggle="modal" data-target="#modal-header" data-keyboard="true" class="d-xl-none d-block" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 10H19" stroke="#242424" stroke-width="2" stroke-linecap="square"/>
+                <path d="M1 17H19" stroke="#242424" stroke-width="2" stroke-linecap="square"/>
+                <path d="M1 3H19" stroke="#242424" stroke-width="2" stroke-linecap="square"/>
+            </svg>
+
         </div>
         
    </div>
-</header>
-<main>
-    <div class="main_back back_brown">
-        <div class="container main d-flex align-items-center"> 
-            <div class="col-8 p-0">
-                <h2 class="main_header mb-3">Разрабатываем премиальные корпоративные подарки</h2>
-                <div class="fs-28 main_p">Мы знаем что дарить самым важным людям</div>
-                <div data-toggle="modal" data-target="#modal-suggestion" data-keyboard="true" class="btn_black">НУЖНО ПРЕДЛОЖЕНИЕ 
-                        <svg class="ml-3" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_184_109)">
-                            <path d="M18.5 10H0" stroke="white" stroke-width="2"/>
-                            <path d="M13 4L19 10L13 16" stroke="white" stroke-width="2"/>
-                            </g>
-                            <defs>
-                            <clipPath id="clip0_184_109">
-                            <rect width="20" height="20" fill="white"/>
-                            </clipPath>
-                            </defs>
-                        </svg>
-                </div>
-            </div>
-            <div class="col-4 p-0">
-                <img src="./assets/images/woman.png" class="w-100" alt="девушка">
+</div>
+
+
+   <div class="main_back">
+    <div class="container main d-md-flex d-block align-items-center"> 
+        <div class="col-md-8 col-12 p-0">
+            <h2 class="main_header mb-3">РАЗРАБАТЫВАЕМ ПРЕМИАЛЬНЫЕ КОРПОРАТИВНЫЕ ПОДАРКИ</h2>
+            <div class="fs-md-28 fs-22 main_p">Мы знаем что дарить самым важным людям</div>
+            <div data-toggle="modal" data-target="#modal-suggestion" data-keyboard="true" class="btn_black">НУЖНО ПРЕДЛОЖЕНИЕ 
+                    <svg class="ml-3" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_184_109)">
+                        <path d="M18.5 10H0" stroke="white" stroke-width="2"/>
+                        <path d="M13 4L19 10L13 16" stroke="white" stroke-width="2"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_184_109">
+                        <rect width="20" height="20" fill="white"/>
+                        </clipPath>
+                        </defs>
+                    </svg>
             </div>
         </div>
+        <div class="col-md-4 col-12 p-0 d-md-block d-flex justify-content-end">
+            <img src="./assets/images/woman.png" class="woman_mobile" alt="девушка">
+        </div>
     </div>
+</div>
+
+
+</header>
+<main>
+    
+
 
     <div class="black_back">
-        <div class="gift_theme_container container d-flex justify-content-between">
+        <div class="gift_theme_container container d-md-flex d-block justify-content-between">
 
-            <div class="col-3 p-0">
-                <h2 class="mb-4 fs-48">Какая у вас задача?</h2>
+            <div class="col-md-3 col-12 p-0">
+                <h2 class="mb-4 fs-md-48 fs-28">КАКАЯ У ВАС ЗАДАЧА?</h2>
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_110_2292)">
                     <path d="M25.3823 26.1823L4.4519 5.25195" stroke="#8F7F6E" stroke-width="2"/>
@@ -114,37 +132,37 @@
                 </svg>
             </div>
 
-            <ul class="list col-7 p-0">
-                <li class="gift_theme_item d-flex">
-                    <div class="color_orange fs-24 gift_theme_item_count">01</div>
+            <ul class="list col-md-7 col-12 p-0">
+                <li class="gift_theme_item gift_theme_item_1 gift_theme_item_border d-flex">
+                    <div class="color_orange fs-md-24 fs-20 gift_theme_item_count">01</div>
                     <div>
                         <div class="gift_theme_item_header">Подарки для высшего менеджмента</div>
-                        <div class="fs-18 color_gray">Нужно подобрать подарки для тех, у кого все есть</div>
+                        <div class="fs-md-18 fs-16 color_gray lh_gift">Нужно подобрать подарки для тех, у кого все есть</div>
                     </div>
                 </li>
 
-                <li class="gift_theme_item d-flex">
-                    <div class="color_orange fs-24 gift_theme_item_count">02</div>
+                <li class="gift_theme_item gift_theme_item_1 gift_theme_item_border d-flex">
+                    <div class="color_orange fs-md-24 fs-20 gift_theme_item_count">02</div>
                     <div>
                         <div class="gift_theme_item_header">Протокольные подарки</div>
-                        <div class="fs-18 color_gray">Для переговоров на самом высоком уровне. 
+                        <div class="fs-md-18 fs-16  color_gray lh_gift">Для переговоров на самом высоком уровне. 
                             Надо дорогой подарок со смыслом. </div>
                     </div>
                 </li>
 
-                <li class="gift_theme_item d-flex">
-                    <div class="color_orange fs-24 gift_theme_item_count">03</div>
+                <li class="gift_theme_item gift_theme_item_1 gift_theme_item_border d-flex">
+                    <div class="color_orange fs-md-24 fs-20 gift_theme_item_count">03</div>
                     <div>
                         <div class="gift_theme_item_header">Сотрудникам и партнерам </div>
-                        <div class="fs-18 color_gray">Есть задача, бюджет и горящий дедлайн. Подобрать уникальные подарки и реализовать под ключ.</div>
+                        <div class="fs-md-18 fs-16  color_gray lh_gift">Есть задача, бюджет и горящий дедлайн. Подобрать уникальные подарки и реализовать под ключ.</div>
                     </div>
                 </li>
 
-                <li class="gift_theme_item d-flex">
-                    <div class="color_orange fs-24 gift_theme_item_count">04</div>
+                <li class="gift_theme_item gift_theme_item_1 gift_theme_item_border d-flex">
+                    <div class="color_orange fs-md-24 fs-20 gift_theme_item_count">04</div>
                     <div>
                         <div class="gift_theme_item_header">Корпоративный мерч и дизайн</div>
-                        <div class="fs-18 color_gray">Требуется произвести сувенирную продукцию. 
+                        <div class="fs-md-18 fs-16 lh_gift color_gray">Требуется произвести сувенирную продукцию. 
                             Чтобы качественно и быстро.</div>
                     </div>
                 </li>
@@ -154,19 +172,19 @@
 
 
 <div class="back_brown">
-    <div class="container for_whom d-flex justify-content-between align-items-center">
-        <div class="col-6 p-0">
-            <div class="fs-48">Для кого мы работаем</div>
+    <div class="container for_whom d-md-flex d-block justify-content-between align-items-center">
+        <div class="col-md-6 col-12 p-0">
+            <div class="fs-md-48 fs-28">ДЛЯ КОГО МЫ РАБОТАЕМ</div>
             <ul class="for_whom_list d-flex">
-                <li class="for_whom_list_item col-6 p-0 mb-40">
+                <li class="for_whom_list_item col-6 p-0 mb-md-40 mb-4">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6 1V19" stroke="#242424" stroke-width="2"/>
                         <rect x="2" y="2" width="3" height="16" fill="#242424"/>
                         <path d="M0 0V-2H-2V0H0ZM20 0H22V-2H20V0ZM20 20V22H22V20H20ZM0 20H-2V22H0V20ZM0 2H20V-2H0V2ZM18 0V20H22V0H18ZM20 18H0V22H20V18ZM2 20V0H-2V20H2Z" fill="#242424"/>
                     </svg>
-                    <div class="mt-3 fs-24">Руководителей </div>
+                    <div class="mt-3 fs-md-24 fs-20">Руководителей </div>
                 </li>
-                <li class="for_whom_list_item col-6 p-0 mb-40">
+                <li class="for_whom_list_item col-6 p-0 mb-md-40 mb-4">
                     <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_184_414)">
                         <path d="M10.5 1L1.5 19H19.5L10.5 1Z" fill="#242424" stroke="#242424" stroke-width="2"/>
@@ -178,23 +196,23 @@
                         </clipPath>
                         </defs>
                     </svg>
-                    <div class="mt-3 fs-24">Личные помощники</div>
+                    <div class="mt-3 fs-md-24 fs-20">Личные помощники</div>
                 </li>
-                <li class="for_whom_list_item col-6 p-0 mb-40">
+                <li class="for_whom_list_item col-6 p-0 mb-md-40 mb-4">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.5 6L12 12V19" stroke="#242424" stroke-width="2"/>
                         <path d="M19 1L12 12" stroke="#242424" stroke-width="2"/>
                         <path d="M0 0V-2H-2V0H0ZM20 0H22V-2H20V0ZM20 20V22H22V20H20ZM0 20H-2V22H0V20ZM0 2H20V-2H0V2ZM18 0V20H22V0H18ZM20 18H0V22H20V18ZM2 20V0H-2V20H2Z" fill="#242424"/>
                     </svg>
-                    <div class="mt-3 fs-24">Отделы маркетинга</div>
+                    <div class="mt-3 fs-md-24 fs-20">Отделы маркетинга</div>
                 </li>
-                <li class="for_whom_list_item col-6 p-0 mb-40">
+                <li class="for_whom_list_item col-6 p-0 mb-md-40 mb-4">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6 1V19" stroke="#242424" stroke-width="2"/>
                         <rect x="2" y="2" width="3" height="16" fill="#242424"/>
                         <path d="M0 0V-2H-2V0H0ZM20 0H22V-2H20V0ZM20 20V22H22V20H20ZM0 20H-2V22H0V20ZM0 2H20V-2H0V2ZM18 0V20H22V0H18ZM20 18H0V22H20V18ZM2 20V0H-2V20H2Z" fill="#242424"/>
                     </svg>
-                    <div class="mt-3 fs-24">Отделы кадров</div>
+                    <div class="mt-3 fs-md-24 fs-20">Отделы кадров</div>
                 </li>
             </ul>
             <div data-toggle="modal" data-target="#modal-suggestion" data-keyboard="true" class="btn_black">НУЖНО ПРЕДЛОЖЕНИЕ 
@@ -211,53 +229,53 @@
                 </svg>
             </div>
         </div>
-        <div class="col-5 p-0">
-            <img src="./assets/images/woman.png" class="w-100" alt="девушка">
+        <div class="col-md-5 col-12 p-0 d-md-block d-flex justify-content-end mt-1">
+            <img src="./assets/images/woman.png" class="woman_mobile" alt="девушка">
         </div>
     </div>
 
 
 
     <div class="container how_we_dont_work pl-0 pr-0">
-        <div class="fs-48 mb-12">Нам знакомы ваши проблемы</div>
-        <div class="fs-24 mb-40">И мы так не работаем</div>
+        <div class="fs-md-48 fs-28 mb-12">НАМ ЗНАКОМЫ ВАШИ ПРОБЛЕМЫ</div>
+        <div class="fs-md-24 fs-20 mb-32">И мы так не работаем</div>
         <ul class="how_we_dont_work_list d-flex">
-            <li class="how_we_dont_work_item col-3">
+            <li class="how_we_dont_work_item col-xl-3 col-lg-6 col-12">
                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M27 39C33.6274 39 39 33.6274 39 27C39 20.3726 33.6274 15 27 15C20.3726 15 15 20.3726 15 27C15 33.6274 20.3726 39 27 39ZM22.0909 24.8182C22.9946 24.8182 23.7273 24.0856 23.7273 23.1818C23.7273 22.2781 22.9946 21.5455 22.0909 21.5455C21.1872 21.5455 20.4545 22.2781 20.4545 23.1818C20.4545 24.0856 21.1872 24.8182 22.0909 24.8182ZM33.5455 23.1818C33.5455 24.0856 32.8128 24.8182 31.9091 24.8182C31.0054 24.8182 30.2727 24.0856 30.2727 23.1818C30.2727 22.2781 31.0054 21.5455 31.9091 21.5455C32.8128 21.5455 33.5455 22.2781 33.5455 23.1818ZM23.6065 32.6971C24.0189 31.0476 25.4533 30.1818 27 30.1818C28.5467 30.1818 29.9811 31.0476 30.3935 32.6971L32.3338 32.212C31.6552 29.4978 29.2715 28.1818 27 28.1818C24.7285 28.1818 22.3448 29.4978 21.6662 32.212L23.6065 32.6971Z" fill="#8F7F6E"/>
                     <path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd" d="M27.6506 12.0963C27.1092 12.0327 26.5584 12 26 12C18.268 12 12 18.268 12 26C12 26.5584 12.0327 27.1092 12.0963 27.6506C11.8945 27.4421 11.7007 27.2254 11.5152 27.0006C10.3346 25.5697 9.53504 23.8634 9.19091 22.0405C8.84679 20.2176 8.96929 18.3372 9.54701 16.5744C10.1247 14.8115 11.1389 13.2234 12.4952 11.9577C13.8516 10.692 15.5059 9.78996 17.3045 9.33537C19.1031 8.88078 20.9874 8.88845 22.7822 9.35766C24.577 9.82686 26.224 10.7424 27.5699 12.019C27.597 12.0446 27.6238 12.0704 27.6506 12.0963Z" fill="#8F7F6E"/>
                     <path opacity="0.25" fill-rule="evenodd" clip-rule="evenodd" d="M21.6506 5.09628C21.1092 5.0327 20.5584 5 20 5C12.268 5 6 11.268 6 19C6 19.5584 6.0327 20.1092 6.09628 20.6506C5.89451 20.4421 5.70065 20.2254 5.51525 20.0006C4.33461 18.5697 3.53504 16.8634 3.19091 15.0405C2.84679 13.2176 2.96929 11.3372 3.54701 9.57435C4.12474 7.81148 5.13893 6.22336 6.49524 4.9577C7.85155 3.69204 9.50593 2.78996 11.3045 2.33537C13.1031 1.88078 14.9874 1.88845 16.7822 2.35766C18.577 2.82686 20.224 3.74237 21.5699 5.01902C21.597 5.04464 21.6238 5.0704 21.6506 5.09628Z" fill="#8F7F6E"/>
                 </svg>
-                <div class="fs-28 mb-12">Однообразность</div>
-                <div class="fs-18">Во всех агентствах одинаковый ассортимент без идеи и изюминки.</div>
+                <div class="fs-md-28 fs-22 mb-md-12 mb-2">Однообразность</div>
+                <div class="fs-md-18 fs-16 lh_gift">Во всех агентствах одинаковый ассортимент без идеи и изюминки.</div>
             </li>
-            <li class="how_we_dont_work_item col-3">
+            <li class="how_we_dont_work_item col-xl-3 col-lg-6 col-12">
                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="16" y="16" width="20.5" height="20.5" fill="#8F7F6E" stroke="#8F7F6E" stroke-width="2"/>
                     <path opacity="0.5" d="M8.75 8.75H31.25V12.5H12.5V31.25H8.75V8.75Z" fill="#8F7F6E"/>
                     <path opacity="0.25" d="M2.5 2.5H25V6.25H6.25V25H2.5V2.5Z" fill="#8F7F6E"/>
                 </svg>
-                <div class="fs-28 mb-12">Однообразность</div>
-                <div class="fs-18">Во всех агентствах одинаковый ассортимент без идеи и изюминки.</div>
+                <div class="fs-md-28 fs-22 mb-md-12 mb-2">Однообразность</div>
+                <div class="fs-md-18 fs-16 lh_gift">Во всех агентствах одинаковый ассортимент без идеи и изюминки.</div>
             </li> 
-            <li class="how_we_dont_work_item col-3">
+            <li class="how_we_dont_work_item col-xl-3 col-lg-6 col-12">
                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M27 39C33.6274 39 39 33.6274 39 27C39 20.3726 33.6274 15 27 15C20.3726 15 15 20.3726 15 27C15 33.6274 20.3726 39 27 39ZM26 18.2727V27V27.3333L26.2 27.6L29.4727 31.9636L31.0727 30.7636L28 26.6667V18.2727H26Z" fill="#8F7F6E"/>
                     <path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd" d="M27.6506 12.0963C27.1092 12.0327 26.5584 12 26 12C18.268 12 12 18.268 12 26C12 26.5584 12.0327 27.1092 12.0963 27.6506C11.8945 27.4421 11.7007 27.2254 11.5152 27.0006C10.3346 25.5697 9.53504 23.8634 9.19091 22.0405C8.84679 20.2176 8.96929 18.3372 9.54701 16.5744C10.1247 14.8115 11.1389 13.2234 12.4952 11.9577C13.8516 10.692 15.5059 9.78996 17.3045 9.33537C19.1031 8.88078 20.9874 8.88845 22.7822 9.35766C24.577 9.82686 26.224 10.7424 27.5699 12.019C27.597 12.0446 27.6238 12.0704 27.6506 12.0963Z" fill="#8F7F6E"/>
                     <path opacity="0.25" fill-rule="evenodd" clip-rule="evenodd" d="M21.6506 5.09628C21.1092 5.0327 20.5584 5 20 5C12.268 5 6 11.268 6 19C6 19.5584 6.0327 20.1092 6.09628 20.6506C5.89451 20.4421 5.70065 20.2254 5.51525 20.0006C4.33461 18.5697 3.53504 16.8634 3.19091 15.0405C2.84679 13.2176 2.96929 11.3372 3.54701 9.57435C4.12474 7.81148 5.13893 6.22336 6.49524 4.9577C7.85155 3.69204 9.50593 2.78996 11.3045 2.33537C13.1031 1.88078 14.9874 1.88845 16.7822 2.35766C18.577 2.82686 20.224 3.74237 21.5699 5.01902C21.597 5.04464 21.6238 5.0704 21.6506 5.09628Z" fill="#8F7F6E"/>
                 </svg>
-                <div class="fs-28 mb-12">Однообразность</div>
-                <div class="fs-18">Во всех агентствах одинаковый ассортимент без идеи и изюминки.</div>
+                <div class="fs-md-28 fs-22 mb-md-12 mb-2">Однообразность</div>
+                <div class="fs-md-18 fs-16 lh_gift">Во всех агентствах одинаковый ассортимент без идеи и изюминки.</div>
             </li> 
-            <li class="how_we_dont_work_item col-3">
+            <li class="how_we_dont_work_item col-xl-3 col-lg-6 col-12">
                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="26" cy="20" r="4" fill="#8F7F6E" stroke="#8F7F6E" stroke-width="2"/>
                     <path d="M16 36V37H36V36C36 31.5817 32.4183 28 28 28H24C19.5817 28 16 31.5817 16 36Z" fill="#8F7F6E" stroke="#8F7F6E" stroke-width="2"/>
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M18.266 17.9465C18.999 15.1785 21.1785 12.999 23.9465 12.266C23.5915 9.85255 21.5121 8 19 8C16.2386 8 14 10.2386 14 13C14 15.5121 15.8526 17.5915 18.266 17.9465ZM19.402 24.5253C18.5176 23.2383 18 21.6796 18 20H17C12.0294 20 8 24.0294 8 29V31H12.7301C14.2107 28.1991 16.5521 25.9234 19.402 24.5253Z" fill="#8F7F6E" fill-opacity="0.5"/>
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M11.266 10.9465C11.999 8.17854 14.1785 5.99902 16.9465 5.266C16.5915 2.85255 14.5121 1 12 1C9.23858 1 7 3.23858 7 6C7 8.51207 8.85255 10.5915 11.266 10.9465ZM12.402 17.5253C11.5176 16.2383 11 14.6796 11 13H10C5.02944 13 1 17.0294 1 22V24H5.73009C7.21066 21.1991 9.55205 18.9234 12.402 17.5253Z" fill="#8F7F6E" fill-opacity="0.25"/>
                 </svg>
-                <div class="fs-28 mb-12">Однообразность</div>
-                <div class="fs-18">Во всех агентствах одинаковый ассортимент без идеи и изюминки.</div>
+                <div class="fs-md-28 fs-22 mb-md-12 mb-2">Однообразность</div>
+                <div class="fs-md-18 fs-16 lh_gift">Во всех агентствах одинаковый ассортимент без идеи и изюминки.</div>
             </li>
         </ul>
     </div>
@@ -266,10 +284,10 @@
 
 <div class="black_back">
     <div class="container benefits">
-        <div class="col-7 fs-48 mb-40">ПОЧЕМУ НАШИ ЗАКАЗЧИКИ РАБОТАЮТ С НАМИ ГОДАМИ</div>
+        <div class="col-md-7 col-12 fs-md-48 fs-28 mb-md-40 mb-3 p-0">ПОЧЕМУ НАШИ ЗАКАЗЧИКИ РАБОТАЮТ С НАМИ ГОДАМИ</div>
 
-        <div class="d-flex justify-content-between">
-            <div class="col-4" style="display: flex; justify-content: space-between; flex-direction: column;">
+        <div class="d-md-flex d-block justify-content-between">
+            <div class="d-md-block d-none col-md-4 col-12 benefits_woman_container">
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_110_2292)">
                     <path d="M25.3823 26.1823L4.4519 5.25195" stroke="#8F7F6E" stroke-width="2"/>
@@ -292,37 +310,63 @@
                 </div>
             </div>
 
+            <svg class="d-md-none d-block" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_110_2292)">
+                <path d="M25.3823 26.1823L4.4519 5.25195" stroke="#8F7F6E" stroke-width="2"/>
+                <path d="M25.948 7.51465V26.748H6.71469" stroke="#8F7F6E" stroke-width="2"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_110_2292">
+                <rect width="32" height="32" fill="white"/>
+                </clipPath>
+                </defs>
+            </svg>
 
-            <div class="col-7">
+
+            <div class="col-md-7 col-12">
                 <div class="gift_theme_item gift_theme_item_border d-flex justify-content-between">
                    <img src="./assets/images/benefits_1.svg" class="benefits_img mr-4" alt="">
                     <div>
                         <div class="benefits_header mb-12">Разработка индивидуальных концептов подарков с идеей и смыслами</div>
-                        <div class="fs-18 color_gray">Во всех агентствах одинаковый ассортимент без идеи и изюминки.</div>
+                        <div class="fs-md-18 fs-16 lh_gift color_gray">Во всех агентствах одинаковый ассортимент без идеи и изюминки.</div>
                     </div>
                 </div>
                 <div class="gift_theme_item gift_theme_item_border d-flex justify-content-between">
                     <img src="./assets/images/benefits_2.svg" class="benefits_img mr-4" alt="">
                      <div>
                          <div class="benefits_header mb-12">Разработка индивидуальных концептов подарков с идеей и смыслами</div>
-                         <div class="fs-18 color_gray">Во всех агентствах одинаковый ассортимент без идеи и изюминки.</div>
+                         <div class="fs-md-18 fs-16 lh_gift color_gray">Во всех агентствах одинаковый ассортимент без идеи и изюминки.</div>
                      </div>
                  </div>
                  <div class="gift_theme_item gift_theme_item_border d-flex justify-content-between">
                     <img src="./assets/images/benefits_3.svg" class="benefits_img mr-4" alt="">
                      <div>
                          <div class="benefits_header mb-12">Разработка индивидуальных концептов подарков с идеей и смыслами</div>
-                         <div class="fs-18 color_gray">Во всех агентствах одинаковый ассортимент без идеи и изюминки.</div>
+                         <div class="fs-md-18 fs-16 lh_gift color_gray">Во всех агентствах одинаковый ассортимент без идеи и изюминки.</div>
                      </div>
                  </div>
                  <div class="gift_theme_item gift_theme_item_border d-flex justify-content-between">
                     <img src="./assets/images/benefits_4.svg" class="benefits_img mr-4" alt="">
                      <div>
                          <div class="benefits_header mb-12">Разработка индивидуальных концептов подарков с идеей и смыслами</div>
-                         <div class="fs-18 color_gray">Во всех агентствах одинаковый ассортимент без идеи и изюминки.</div>
+                         <div class="fs-md-18 fs-16 lh_gift color_gray">Во всех агентствах одинаковый ассортимент без идеи и изюминки.</div>
                      </div>
                  </div>
             </div>
+
+            <div class="d-md-none d-block col-12 benefits_woman_container mt-32">
+            
+
+                <div>
+                    <img src="./assets/images/benefits_woman.png" class="benefits_woman mb-4" alt="девушка">    
+                    <div class="fs-md-28 fs-22 mb-2">Диянова Лия</div>
+                    <div class="fs-md-18 fs-16 mb-3 color_gray">Оcновательница LIYA YOUR GIFT CONCIERGE</div>
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 11C17.555 11 17.2498 11.0112 16.2898 11.054C15.3313 11.099 14.6787 11.2498 14.105 11.4725C13.5132 11.702 13.0108 12.0102 12.5105 12.5105C12.0102 13.0108 11.7013 13.5125 11.4725 14.105C11.2498 14.6787 11.0983 15.3313 11.054 16.2898C11.009 17.2498 11 17.555 11 20C11 22.445 11.0112 22.7503 11.054 23.7103C11.099 24.668 11.2498 25.3213 11.4725 25.895C11.702 26.486 12.0102 26.9893 12.5105 27.4895C13.0108 27.989 13.5125 28.2987 14.105 28.5275C14.6795 28.7495 15.332 28.9018 16.2898 28.946C17.2498 28.991 17.555 29 20 29C22.445 29 22.7503 28.9888 23.7103 28.946C24.668 28.901 25.3213 28.7495 25.895 28.5275C26.486 28.298 26.9893 27.989 27.4895 27.4895C27.989 26.9893 28.2987 26.4883 28.5275 25.895C28.7495 25.3213 28.9018 24.668 28.946 23.7103C28.991 22.7503 29 22.445 29 20C29 17.555 28.9888 17.2498 28.946 16.2898C28.901 15.332 28.7495 14.678 28.5275 14.105C28.298 13.5132 27.989 13.0108 27.4895 12.5105C26.9893 12.0102 26.4883 11.7013 25.895 11.4725C25.3213 11.2498 24.668 11.0983 23.7103 11.054C22.7503 11.009 22.445 11 20 11ZM20 12.62C22.4023 12.62 22.6888 12.632 23.6375 12.6732C24.515 12.7145 24.9913 12.86 25.3077 12.9845C25.7292 13.1472 26.0278 13.3423 26.3442 13.6565C26.6585 13.9715 26.8535 14.2707 27.0163 14.6922C27.1392 15.0087 27.2862 15.485 27.326 16.3625C27.3687 17.312 27.3785 17.597 27.3785 20C27.3785 22.403 27.3673 22.6888 27.323 23.6375C27.2773 24.515 27.131 24.9913 27.0072 25.3077C26.8393 25.7292 26.648 26.0278 26.333 26.3442C26.0188 26.6585 25.715 26.8535 25.298 27.0163C24.983 27.1392 24.4993 27.2862 23.6217 27.326C22.6663 27.3687 22.385 27.3785 19.9775 27.3785C17.5693 27.3785 17.288 27.3673 16.3333 27.323C15.455 27.2773 14.9713 27.131 14.6562 27.0072C14.2295 26.8393 13.9362 26.648 13.622 26.333C13.3063 26.0188 13.1045 25.715 12.947 25.298C12.8232 24.983 12.6778 24.4993 12.632 23.6217C12.5983 22.6768 12.5863 22.385 12.5863 19.9887C12.5863 17.5917 12.5983 17.2993 12.632 16.343C12.6778 15.4655 12.8232 14.9825 12.947 14.6675C13.1045 14.24 13.3063 13.9475 13.622 13.6318C13.9362 13.3175 14.2295 13.115 14.6562 12.9583C14.9713 12.8338 15.4445 12.6875 16.322 12.6425C17.2783 12.6087 17.5595 12.5975 19.9662 12.5975L20 12.62ZM20 15.3785C17.4462 15.3785 15.3785 17.4485 15.3785 20C15.3785 22.5538 17.4485 24.6215 20 24.6215C22.5538 24.6215 24.6215 22.5515 24.6215 20C24.6215 17.4462 22.5515 15.3785 20 15.3785ZM20 23C18.3425 23 17 21.6575 17 20C17 18.3425 18.3425 17 20 17C21.6575 17 23 18.3425 23 20C23 21.6575 21.6575 23 20 23ZM25.8845 15.1962C25.8845 15.7925 25.4 16.2762 24.8045 16.2762C24.2083 16.2762 23.7245 15.7917 23.7245 15.1962C23.7245 14.6007 24.209 14.117 24.8045 14.117C25.3993 14.1163 25.8845 14.6007 25.8845 15.1962Z" fill="#8F7F6E"/>
+                    </svg>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>
@@ -336,17 +380,17 @@
           <div class="mb-40 fs-48">НАШИ ПРОЕКТЫ</div>
           <ul class="list slider slider-partners" id="slider-partners">
             
-            <li class="col-4 img_project">
+            <li class="col-md-4 col-7 img_project">
                 <img src="./assets/images/project_1.png" class="w-100" alt="">
             </li>
 
-           <li class="col-4 img_project">
+           <li class="col-md-4 col-7 img_project">
                 <img src="./assets/images/project_1.png" class="w-100" alt="">
            </li>
-            <li class="col-4 img_project">
+            <li class="col-md-4 col-7 img_project">
                 <img src="./assets/images/project_1.png" class="w-100" alt="">
             </li>
-            <li class="col-4 img_project">
+            <li class="col-md-4 col-7 img_project">
                 <img src="./assets/images/project_1.png" class="w-100" alt="">
             </li>
            
@@ -389,9 +433,9 @@
 
      <div class="container">
          <div class="gift_form">
-        <div class="col-8">
-            <div class="fs-48 mb-12">НУЖНО ИНДИВИДУАЛЬНОЕ РЕШЕНИЕ ПО ПОДАРКАМ?</div>
-            <div class="fs-24">Оставьте заявку ниже или напишите о вашей задаче на почту gift@liyaconcierge.com</div>
+        <div class="col-md-8 col-12">
+            <div class="fs-md-48 fs-28 mb-12">НУЖНО ИНДИВИДУАЛЬНОЕ РЕШЕНИЕ ПО ПОДАРКАМ?</div>
+            <div class="fs-md-24 fs-18">Оставьте заявку ниже или напишите о вашей задаче на почту gift@liyaconcierge.com</div>
             <div data-toggle="modal" data-target="#modal-suggestion" data-keyboard="true" class="mt-40 btn_black">НУЖНО ПРЕДЛОЖЕНИЕ 
                 <svg class="ml-3" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_184_109)">
@@ -418,7 +462,7 @@
     <!-- Наши отзывы  -->
     <div class="block block-partners">
         <div class="container block-p block-bottom-border">
-          <div class="mb-40 fs-48">ОТЗЫВЫ</div>
+          <div class="mb-md-40 mb-32 fs-md-48 fs-28">ОТЗЫВЫ</div>
           <ul class="list slider slider-partners" id="slider-reviews">
             
             <li class="col-6 img_project">
@@ -507,12 +551,12 @@
 
 <div class="top">
     <div class="container">
-        <div class="col-10 p-0">
-            <div class="fs-48 mb-12">ПОДБОРКА ТОП10 КОРПОРАТИВНЫХ ПОДАРКОВ В 2022 ГОДУ</div>
-            <div class="fs-24 mb-40">Оставьте email и получите подборку актуальных корпоративных подарков в 2022 году </div>
+        <div class="col-md-10 col-12 p-0">
+            <div class="fs-md-48 fs-28 mb-12">ПОДБОРКА ТОП10 КОРПОРАТИВНЫХ ПОДАРКОВ В 2022 ГОДУ</div>
+            <div class="fs-md-24 fs-18 mb-40">Оставьте email и получите подборку актуальных корпоративных подарков в 2022 году </div>
             <div class="fs-16 color_gray mb-2">E-mail</div>
             <form action="" class="d-flex">
-                <input type="text" class="input_my">
+                <input type="text" class="input_my input_my_top_mobile">
                 <div class="form_btn d-flex justify-content-center align-items-center">
                     <svg class="" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_184_154)">
@@ -534,10 +578,10 @@
 
 <div class="back_brown inst">
     <div class="container contacts">
-        <div class="d-flex justify-content-between">
-            <div class="col-6">
-                <div class="fs-48">КОНТАКТЫ</div>
-                <div class="fs-20 mt-12 mb-40">Пришлите нам ваше ТЗ или описание задачи, и мы свяжемся с вами ближайшее время для начала работ. </div>
+        <div class="d-md-flex d-block justify-content-between">
+            <div class="col-md-6 col-12 p-0">
+                <div class="fs-md-48 fs-28">КОНТАКТЫ</div>
+                <div class="fs-md-20 fs-18 mt-12 mb-md-40 mb-32">Пришлите нам ваше ТЗ или описание задачи, и мы свяжемся с вами ближайшее время для начала работ. </div>
                 <div data-toggle="modal" data-target="#modal-suggestion" data-keyboard="true" class="mt-40 btn_black">ОТПРАВИТЬ ЗАПРОС 
                     <svg class="ml-3" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_184_109)">
@@ -552,10 +596,10 @@
                     </svg>
                 </div>
             </div>
-            <div class="col-5" style="margin-top: 64px;">
-                    <div class="mb-12"><a class="fs-32 color_black" href="#">+7 999 123 54 76</a></div>
-                    <div class="mb-40"><a href="#" class="color_black fs-32" >gift@liyaconcierge.com</a></div>
-                    <div class="d-flex">
+            <div class="col-md-5 col-12 contacts_margin p-0" style="margin-top: 64px;">
+                    <div class="mb-12"><a class="fs-md-32 fs-24 color_black" href="#">+7 999 123 54 76</a></div>
+                    <div class="mb-md-40 mb-12"><a href="#" class="color_black fs-md-32 fs-24" >gift@liyaconcierge.com</a></div>
+                    <div class="d-flex mb-md-0 mb-12">
                         <a class="color_black fs-18 mr-2" href="#">
                             <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M27.2551 12.6208C26.9551 12.3664 26.4839 12.33 25.9967 12.5256H25.9959C25.4835 12.7312 11.4915 18.7328 10.9219 18.978C10.8183 19.014 9.91352 19.3516 10.0067 20.1036C10.0899 20.7816 10.8171 21.0624 10.9059 21.0948L14.4631 22.3128C14.6991 23.0984 15.5691 25.9968 15.7615 26.616C15.8815 27.002 16.0771 27.5092 16.4199 27.6136C16.7207 27.7296 17.0199 27.6236 17.2135 27.4716L19.3883 25.4544L22.8991 28.1924L22.9827 28.2424C23.2211 28.348 23.4495 28.4008 23.6675 28.4008C23.8359 28.4008 23.9975 28.3692 24.1519 28.306C24.6779 28.09 24.8883 27.5888 24.9103 27.532L27.5327 13.9012C27.6927 13.1732 27.4703 12.8028 27.2551 12.6208ZM17.6003 22.8L16.4003 26L15.2003 22L24.4003 15.2L17.6003 22.8Z" fill="#242424"/>
@@ -575,7 +619,7 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="fs-20 mt-40">123112, Москва,<br>
+                    <div class="fs-20 mt-md-40 mt-0">123112, Москва,<br>
                         1-ый Красногвардейский проезд, дом 21, ст. 2</div>
             </div>
         </div>
@@ -583,18 +627,18 @@
 
 
 <div class="container p-0">
-    <div class="fs-48 mb-5 pl-3">INSTAGRAM</div>
-        <ul class="list d-flex">
-            <li class="col-3">
+    <div class="fs-md-48 fs-28 mb-md-5 mb-4 pl-md-3 pl-0">INSTAGRAM</div>
+        <ul class="list d-flex" style="flex-wrap: wrap;">
+            <li class="col-md-3 col-6 inst_img_mobile">
                 <img src="./assets/images/inst_1.png" class="w-100" alt="">
             </li>
-            <li class="col-3 inst_img">
+            <li class="col-md-3 col-6 inst_img inst_img_mobile">
                 <img src="./assets/images/inst_1.png" class="w-100" alt="">
             </li>
-            <li class="col-3 inst_img">
+            <li class="col-md-3 col-6 inst_img inst_img_mobile">
                 <img src="./assets/images/inst_1.png" class="w-100" alt="">
             </li>
-            <li class="col-3 inst_img">
+            <li class="col-md-3 col-6 inst_img inst_img_mobile">
                 <img src="./assets/images/inst_1.png" class="w-100" alt="">
             </li>
         </ul>
@@ -609,11 +653,11 @@
 
 <footer class="black_back">
     <div class="container">
-        <div class="d-flex footer_pad">    
-            <div class="col-3 pl-0">
+        <div class="d-flex footer_pad" style="flex-wrap: wrap;">    
+            <div class="col-md-3 col-12 pl-0 mb-md-0 mb-4">
                 <img src="./assets/images/logo_footer.svg" alt="">    
             </div>
-            <div class="col-3">
+            <div class="col-md-3 col-12 list_mobile">
                 <ul class="list">
                     <li class="mb-4"><a href="#" class="color_white">О НАС</a></li>
                     <li class="mb-4"><a href="#" class="color_white">ПРОЕКТЫ</a></li>
@@ -622,10 +666,10 @@
                 </ul>
             </div>
 
-            <div class="col-3">
+            <div class="col-md-3 col-12 list_mobile">
                 <div class="mb-2"><a class="fs-24 color_white" href="#">+7 999 123 54 76</a></div>
-                <div class="mb-32"><a href="#" class="color_white fs-18" >gift@liyaconcierge.com</a></div>
-                <div class="d-flex">
+                <div class="mb-md-32 mb-4"><a href="#" class="color_white fs-18" >gift@liyaconcierge.com</a></div>
+                <div class="d-flex mb-md-0 mb-4">
                     <a class="color_black fs-18 mr-2" href="#">
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M27.2551 12.6208C26.9551 12.3664 26.4839 12.33 25.9967 12.5256H25.9959C25.4835 12.7312 11.4915 18.7328 10.9219 18.978C10.8183 19.014 9.91352 19.3516 10.0067 20.1036C10.0899 20.7816 10.8171 21.0624 10.9059 21.0948L14.4631 22.3128C14.6991 23.0984 15.5691 25.9968 15.7615 26.616C15.8815 27.002 16.0771 27.5092 16.4199 27.6136C16.7207 27.7296 17.0199 27.6236 17.2135 27.4716L19.3883 25.4544L22.8991 28.1924L22.9827 28.2424C23.2211 28.348 23.4495 28.4008 23.6675 28.4008C23.8359 28.4008 23.9975 28.3692 24.1519 28.306C24.6779 28.09 24.8883 27.5888 24.9103 27.532L27.5327 13.9012C27.6927 13.1732 27.4703 12.8028 27.2551 12.6208ZM17.6003 22.8L16.4003 26L15.2003 22L24.4003 15.2L17.6003 22.8Z" fill="#FFFFFF"/>
@@ -647,11 +691,11 @@
                 </div>
             </div>
 
-            <div class="col-3">
-                <div class="fs-18 color_gray mb-4">Оставьте email и получите подборку актуальных корпоративных подарков в 2022 году </div>
+            <div class="col-md-3 col-12 list_mobile">
+                <div class="fs-md-18 fs-16 color_gray mb-4">Оставьте email и получите подборку актуальных корпоративных подарков в 2022 году </div>
                 <div class="fs-16 color_gray mt-2 mb-2">E-mail</div>
                 <form action="" class="d-flex">
-                    <input type="text" class="input_my">
+                    <input type="text" class="input_my input_my_top_mobile">
                     <div class="form_btn d-flex justify-content-center align-items-center">
                         <svg class="" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_184_154)">
@@ -671,15 +715,98 @@
         </div>
 
 
-        <div class="d-flex justify-content-between footer_copiright">
-            <a href="#" class="fs-16 color_gray">©giftliyaconcierge</a>
-            <a href="https://yurin.biz/" target="_blank" class="fs-16 color_gray">Сделано в Студии Юрина</a>
+        <div class="d-md-flex d-block justify-content-between footer_copiright">
+            <div><a href="#" class="col-md-auto col-12 fs-16 color_gray mb-md-0 mb-12">©giftliyaconcierge</a></div>
+            <div><a href="https://yurin.biz/" target="_blank" class="col-md-auto col-12 fs-16 color_gray">Сделано в Студии Юрина</a></div>
         </div>
 
 
     </div>
 </footer>
 
+<!-- MODAL////////////////////////////////////////////////// -->
+<div class="modal fade p-0" id="modal-header" tabindex="-1" aria-labelledby="menu" aria-hidden="true">
+
+   
+
+    <div class="modal-dialog modal_header">
+
+       
+    
+        <div class="modal-content content_header" style="height: 100%;">
+            
+            <div class="content_header_border mb-40">
+                <svg data-dismiss="modal" class="close_modal" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.3477 9.99714L19.5075 2.85406C19.821 2.54052 19.9972 2.11527 19.9972 1.67187C19.9972 1.22846 19.821 0.803215 19.5075 0.489679C19.1939 0.176143 18.7687 0 18.3253 0C17.8819 0 17.4566 0.176143 17.1431 0.489679L10 7.64941L2.8569 0.489679C2.54337 0.176143 2.11812 -3.30364e-09 1.67471 0C1.2313 3.30364e-09 0.806058 0.176143 0.492521 0.489679C0.178985 0.803215 0.00284159 1.22846 0.00284159 1.67187C0.00284158 2.11527 0.178985 2.54052 0.492521 2.85406L7.65227 9.99714L0.492521 17.1402C0.336458 17.295 0.212588 17.4792 0.128055 17.6821C0.0435221 17.885 0 18.1026 0 18.3224C0 18.5422 0.0435221 18.7599 0.128055 18.9628C0.212588 19.1657 0.336458 19.3498 0.492521 19.5046C0.64731 19.6607 0.831467 19.7845 1.03437 19.8691C1.23727 19.9536 1.4549 19.9971 1.67471 19.9971C1.89452 19.9971 2.11215 19.9536 2.31505 19.8691C2.51796 19.7845 2.70211 19.6607 2.8569 19.5046L10 12.3449L17.1431 19.5046C17.2979 19.6607 17.482 19.7845 17.6849 19.8691C17.8878 19.9536 18.1055 19.9971 18.3253 19.9971C18.5451 19.9971 18.7627 19.9536 18.9656 19.8691C19.1685 19.7845 19.3527 19.6607 19.5075 19.5046C19.6635 19.3498 19.7874 19.1657 19.8719 18.9628C19.9565 18.7599 20 18.5422 20 18.3224C20 18.1026 19.9565 17.885 19.8719 17.6821C19.7874 17.4792 19.6635 17.295 19.5075 17.1402L12.3477 9.99714Z" fill="#9097A3"/>
+                </svg>
+
+                   <img src="./assets/images/logo.svg" class="header_logo" alt="">
+
+            </div>
+                    
+
+                    <ul class="list">
+                        <li class="mb-4"><a class="color_black" href="#">О НАС</a></li>
+                        <li class="mb-4"><a class="color_black" href="#">ПРОЕКТЫ</a></li>
+                        <li class="mb-4"><a class="color_black" href="#">ОТЗЫВЫ</a></li>
+                        <li class="mb-40"><a class="color_black" href="#">КОНТАКТЫ</a></li>
+                    </ul>
+                    <a class="color_black fs-16 fw-700 mb-40" href="#">+7 999 123 54 76</a>
+
+                    <ul class="list d-flex mb-40">
+                        <li class="mr-2">
+                        <a class="color_black fs-18" href="#">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M27.2551 12.6208C26.9551 12.3664 26.4839 12.33 25.9967 12.5256H25.9959C25.4835 12.7312 11.4915 18.7328 10.9219 18.978C10.8183 19.014 9.91352 19.3516 10.0067 20.1036C10.0899 20.7816 10.8171 21.0624 10.9059 21.0948L14.4631 22.3128C14.6991 23.0984 15.5691 25.9968 15.7615 26.616C15.8815 27.002 16.0771 27.5092 16.4199 27.6136C16.7207 27.7296 17.0199 27.6236 17.2135 27.4716L19.3883 25.4544L22.8991 28.1924L22.9827 28.2424C23.2211 28.348 23.4495 28.4008 23.6675 28.4008C23.8359 28.4008 23.9975 28.3692 24.1519 28.306C24.6779 28.09 24.8883 27.5888 24.9103 27.532L27.5327 13.9012C27.6927 13.1732 27.4703 12.8028 27.2551 12.6208ZM17.6003 22.8L16.4003 26L15.2003 22L24.4003 15.2L17.6003 22.8Z" fill="#242424"/>
+                                <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" stroke="#BEBEBE"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mr-2">
+                        <a class="color_black fs-18" href="#">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 10.7998C14.9272 10.7998 10.8 14.927 10.8 19.9998C10.8 21.5838 11.2092 23.1414 11.9852 24.5158L10.8148 28.6918C10.7764 28.829 10.8136 28.9762 10.9128 29.0782C10.9892 29.157 11.0932 29.1998 11.2 29.1998C11.232 29.1998 11.2644 29.1958 11.296 29.1882L15.6544 28.1086C16.9852 28.823 18.484 29.1998 20 29.1998C25.0728 29.1998 29.2 25.0726 29.2 19.9998C29.2 14.927 25.0728 10.7998 20 10.7998ZM24.628 23.2462C24.4312 23.791 23.4872 24.2882 23.0336 24.355C22.6264 24.4146 22.1112 24.4402 21.5456 24.2626C21.2028 24.1546 20.7628 24.0114 20.1992 23.771C17.83 22.7606 16.2828 20.405 16.1644 20.2494C16.0464 20.0938 15.2 18.985 15.2 17.8374C15.2 16.6898 15.81 16.1254 16.0268 15.8918C16.2436 15.6582 16.4992 15.5998 16.6568 15.5998C16.8144 15.5998 16.9716 15.6018 17.1096 15.6082C17.2548 15.6154 17.4496 15.5534 17.6412 16.0086C17.838 16.4758 18.3104 17.6234 18.3688 17.7406C18.428 17.8574 18.4672 17.9938 18.3888 18.1494C18.3104 18.305 18.2712 18.4022 18.1528 18.5386C18.0344 18.675 17.9048 18.8426 17.7984 18.9474C17.68 19.0638 17.5572 19.1898 17.6948 19.4234C17.8324 19.657 18.3064 20.4206 19.0088 21.039C19.9108 21.8334 20.672 22.0798 20.908 22.1966C21.144 22.3134 21.282 22.2938 21.4196 22.1382C21.5572 21.9822 22.01 21.457 22.1672 21.2238C22.3244 20.9906 22.482 21.029 22.6988 21.107C22.9156 21.1846 24.0768 21.7486 24.3128 21.8654C24.5488 21.9822 24.7064 22.0406 24.7656 22.1378C24.8248 22.2346 24.8248 22.7018 24.628 23.2462Z" fill="#242424"/>
+                                <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" stroke="#BEBEBE"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mr-2">
+                        <a class="color_black fs-18" href="#">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 11C17.555 11 17.2498 11.0112 16.2898 11.054C15.3313 11.099 14.6787 11.2498 14.105 11.4725C13.5132 11.702 13.0108 12.0102 12.5105 12.5105C12.0102 13.0108 11.7013 13.5125 11.4725 14.105C11.2498 14.6787 11.0983 15.3313 11.054 16.2898C11.009 17.2498 11 17.555 11 20C11 22.445 11.0112 22.7503 11.054 23.7103C11.099 24.668 11.2498 25.3213 11.4725 25.895C11.702 26.486 12.0102 26.9893 12.5105 27.4895C13.0108 27.989 13.5125 28.2987 14.105 28.5275C14.6795 28.7495 15.332 28.9018 16.2898 28.946C17.2498 28.991 17.555 29 20 29C22.445 29 22.7503 28.9888 23.7103 28.946C24.668 28.901 25.3213 28.7495 25.895 28.5275C26.486 28.298 26.9893 27.989 27.4895 27.4895C27.989 26.9893 28.2987 26.4883 28.5275 25.895C28.7495 25.3213 28.9018 24.668 28.946 23.7103C28.991 22.7503 29 22.445 29 20C29 17.555 28.9888 17.2498 28.946 16.2898C28.901 15.332 28.7495 14.678 28.5275 14.105C28.298 13.5132 27.989 13.0108 27.4895 12.5105C26.9893 12.0102 26.4883 11.7013 25.895 11.4725C25.3213 11.2498 24.668 11.0983 23.7103 11.054C22.7503 11.009 22.445 11 20 11ZM20 12.62C22.4023 12.62 22.6888 12.632 23.6375 12.6732C24.515 12.7145 24.9913 12.86 25.3077 12.9845C25.7292 13.1472 26.0278 13.3423 26.3442 13.6565C26.6585 13.9715 26.8535 14.2707 27.0163 14.6922C27.1392 15.0087 27.2862 15.485 27.326 16.3625C27.3687 17.312 27.3785 17.597 27.3785 20C27.3785 22.403 27.3673 22.6888 27.323 23.6375C27.2773 24.515 27.131 24.9913 27.0072 25.3077C26.8393 25.7292 26.648 26.0278 26.333 26.3442C26.0188 26.6585 25.715 26.8535 25.298 27.0163C24.983 27.1392 24.4993 27.2862 23.6217 27.326C22.6663 27.3687 22.385 27.3785 19.9775 27.3785C17.5693 27.3785 17.288 27.3673 16.3333 27.323C15.455 27.2773 14.9713 27.131 14.6562 27.0072C14.2295 26.8393 13.9362 26.648 13.622 26.333C13.3063 26.0188 13.1045 25.715 12.947 25.298C12.8232 24.983 12.6778 24.4993 12.632 23.6217C12.5983 22.6768 12.5863 22.385 12.5863 19.9887C12.5863 17.5917 12.5983 17.2993 12.632 16.343C12.6778 15.4655 12.8232 14.9825 12.947 14.6675C13.1045 14.24 13.3063 13.9475 13.622 13.6318C13.9362 13.3175 14.2295 13.115 14.6562 12.9583C14.9713 12.8338 15.4445 12.6875 16.322 12.6425C17.2783 12.6087 17.5595 12.5975 19.9662 12.5975L20 12.62ZM20 15.3785C17.4462 15.3785 15.3785 17.4485 15.3785 20C15.3785 22.5538 17.4485 24.6215 20 24.6215C22.5538 24.6215 24.6215 22.5515 24.6215 20C24.6215 17.4462 22.5515 15.3785 20 15.3785ZM20 23C18.3425 23 17 21.6575 17 20C17 18.3425 18.3425 17 20 17C21.6575 17 23 18.3425 23 20C23 21.6575 21.6575 23 20 23ZM25.8845 15.1962C25.8845 15.7925 25.4 16.2762 24.8045 16.2762C24.2083 16.2762 23.7245 15.7917 23.7245 15.1962C23.7245 14.6007 24.209 14.117 24.8045 14.117C25.3993 14.1163 25.8845 14.6007 25.8845 15.1962Z" fill="#242424"/>
+                                <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" stroke="#BEBEBE"/>
+                            </svg>
+                        </a>
+                    </li>
+                    </ul>
+
+                    <div class="fs-16">Оставьте email и получите подборку актуальных корпоративных подарков в 2022 году </div>
+
+
+                    <div class="fs-16 color_gray mt-2 mb-2">E-mail</div>
+                    <form action="" class="d-flex">
+                        <input type="text" class="input_my w-100">
+                        <div class="form_btn d-flex justify-content-center align-items-center">
+                            <svg class="" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_184_154)">
+                                <path d="M18.5 10H0" stroke="white" stroke-width="2"/>
+                                <path d="M13 4L19 10L13 16" stroke="white" stroke-width="2"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_184_154">
+                                <rect width="20" height="20" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg> 
+                        </div>
+                    </form>
+
+
+                   
+        </div>
+    </div>
+</div>
+<!-- ////////////////////////////////////////////////// -->
 
 
   <!-- MODAL////////////////////////////////////////////////// -->
@@ -697,14 +824,14 @@
                 <path d="M12.3477 9.99714L19.5075 2.85406C19.821 2.54052 19.9972 2.11527 19.9972 1.67187C19.9972 1.22846 19.821 0.803215 19.5075 0.489679C19.1939 0.176143 18.7687 0 18.3253 0C17.8819 0 17.4566 0.176143 17.1431 0.489679L10 7.64941L2.8569 0.489679C2.54337 0.176143 2.11812 -3.30364e-09 1.67471 0C1.2313 3.30364e-09 0.806058 0.176143 0.492521 0.489679C0.178985 0.803215 0.00284159 1.22846 0.00284159 1.67187C0.00284158 2.11527 0.178985 2.54052 0.492521 2.85406L7.65227 9.99714L0.492521 17.1402C0.336458 17.295 0.212588 17.4792 0.128055 17.6821C0.0435221 17.885 0 18.1026 0 18.3224C0 18.5422 0.0435221 18.7599 0.128055 18.9628C0.212588 19.1657 0.336458 19.3498 0.492521 19.5046C0.64731 19.6607 0.831467 19.7845 1.03437 19.8691C1.23727 19.9536 1.4549 19.9971 1.67471 19.9971C1.89452 19.9971 2.11215 19.9536 2.31505 19.8691C2.51796 19.7845 2.70211 19.6607 2.8569 19.5046L10 12.3449L17.1431 19.5046C17.2979 19.6607 17.482 19.7845 17.6849 19.8691C17.8878 19.9536 18.1055 19.9971 18.3253 19.9971C18.5451 19.9971 18.7627 19.9536 18.9656 19.8691C19.1685 19.7845 19.3527 19.6607 19.5075 19.5046C19.6635 19.3498 19.7874 19.1657 19.8719 18.9628C19.9565 18.7599 20 18.5422 20 18.3224C20 18.1026 19.9565 17.885 19.8719 17.6821C19.7874 17.4792 19.6635 17.295 19.5075 17.1402L12.3477 9.99714Z" fill="#9097A3"/>
             </svg>
 
-                    <div class="fs-32 mb-4">ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ</div>
+                    <div class="fs-md-32 fs-24 mb-4">ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ</div>
 
-                    <div class="d-flex">
-                        <div class="col-6 pl-0">
+                    <div class="d-flex" style="flex-wrap: wrap;">
+                        <div class="col-md-6 col-12 pl-0">
                             <div class="fs-16 color_gray">ФИО</div>
                             <input type="text" class="input_my input_my_modal w-100">
                         </div>
-                        <div class="col-6 pr-0">
+                        <div class="col-md-6 col-12 pr-0 pl-0">
                             <div class="fs-16 color_gray">Телефон</div>
                             <input type="text" class="input_my input_my_modal w-100">
                         </div>
@@ -736,7 +863,7 @@
 
 
                     <div class="btn_black">НУЖНО ПРЕДЛОЖЕНИЕ </div>
-                    <div class="fs-16 color_gray mt-12">Нажимая на кнопку, вы автоматически соглашаетесь с нашей политикой конфиденциальности</div>
+                    <div class="fs-16 color_gray mt-12 ln_16">Нажимая на кнопку, вы автоматически соглашаетесь с нашей политикой конфиденциальности</div>
 
         </div>
     </div>

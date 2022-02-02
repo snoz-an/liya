@@ -13,7 +13,7 @@ $(document).ready(function(){
         {
           breakpoint: 1370,
           settings: {
-            slidesToShow: 5,
+            slidesToShow: 3,
             dots: true,
           }
         },
@@ -21,25 +21,19 @@ $(document).ready(function(){
           {
             breakpoint: 1000,
             settings: {
-              slidesToShow: 4,
+              slidesToShow: 3,
               dots: true,
             }
           },
           {
             breakpoint: 800,
             settings: {
-              slidesToShow: 3,
+              slidesToShow: 1.1,
               dots: true,
             }
           },
-          {
-            breakpoint: 573,
-            settings: {
-              slidesToShow: 2,
-              dotsClass: 'slick-dots',
-              dots: true,
-            }
-          }
+          
+          
       ]
     });
     $("#slider-partners").on('afterChange', function(event, slick, currentSlide){
